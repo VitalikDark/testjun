@@ -1,0 +1,721 @@
+.header_g {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url("../images/header-bg.jpg");
+}
+
+.header_menu {
+	padding-top: 20px;
+	margin: 0 auto;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu {
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.menu ul a li{
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 40px;
+	font-family: MyriadProregular;
+	font-size: 17px;
+}
+
+.menu a {
+	color: #fff; 
+	text-decoration: none;
+}
+
+/*LOGO*/
+
+.header_logo {
+	font-family: OpenSans-Regular;
+	font-size: 26px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	min-width: 60px;
+	min-height: 60px;
+	background-color: #11749e;
+	box-shadow: 10px 10px #cdcdcd;
+}
+
+/*icons*/
+
+.header_icons {
+	display: flex;
+	flex-direction: row;
+	color: #fff;
+}
+
+.header_icons a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header_icons i {
+	display: block;
+	width: 8px;
+	height: 15px;
+	margin-right: 27px;
+}
+
+
+
+
+/*content header*/
+.header_content {
+
+	margin: 0 auto;
+	margin-top: 25px;
+	border-top: 2px solid #6b6b6b;
+	text-align: center;
+	padding-top: 230px;
+}
+
+.header_content_title {
+	font-family: Gotham-Bold;
+	font-size: 130px;
+	text-transform: uppercase;
+	color: #f5f5f5;
+}
+.content_line {
+	color: #11749e;
+	letter-spacing: 17px;
+	text-transform: uppercase;
+	font-family: Gotham-Medium;
+	font-size: 21px;
+	
+}
+.scroll_text {
+	font-family: OpenSans-Regular;
+	font-size: 11px;
+	padding-top: 100px;
+	color:#fff;
+	padding-bottom: 20px;
+}
+
+.click {
+	width: 63px;
+	height: 63px;
+	margin: 0 auto;
+}
+
+.down_click a {
+	width: 63px;
+	height: 63px;
+}
+
+.down_click  {
+	width: 63px;
+	height: 63px;
+	
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../images/icons/down.png');
+}
+
+.header_content>.bottom {
+	height: 90px;
+	max-width: 100%;
+}
+
+/*awesome_agency*/
+
+.awesome_agency {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: #11749e;
+}
+
+.awesome_agency_title {
+	font-family: Gotham-Medium;
+	font-size: 32px;
+	margin: 0 auto;
+	text-align: center;
+	color:#fff;
+	font-size: 30px;
+	padding: 145px;
+	position: relative;
+	max-width: 540px;
+	z-index: 0;
+}
+.awesome_agency_title::after {
+	margin: 0 auto;
+	content: 'W';
+	font-size: 211px;
+	position: absolute;
+	line-height: 70px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #5993b2;
+	z-index: -1;
+}
+
+.awesome_agency_row {
+	color: #fff;
+	margin: 0 auto;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+
+
+.circle,
+.circle2,
+.circle3,
+.circle4
+{
+	margin: 0 auto;
+	width: 115px;
+	height: 115px;
+	background-color: #2e85aa;
+	border-radius: 50%;
+	margin-bottom: 20px;
+} 
+
+.awesome_agenc_col>.col_title {
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: Gotham-Medium;
+	font-size: 16px;
+}
+
+.awesome_agenc_col>.col_content {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+	max-width: 200px;
+	line-height: 20px;
+	text-align: center;
+	font-family: GothamBook;
+	font-size: 13px;
+}
+
+.circle {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../images/icons/Feature one.png");
+}
+
+.circle2 {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../images/icons/Feature two.png");
+}
+
+.circle3 {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../images/icons/Search.png");
+}
+
+.circle4 {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../images/icons/Simon says.png");
+}
+
+/*akita_inu_dog*/
+
+.akita_inu_dog {
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.akita_inu_dog .left {
+	width: 50%;
+	background-color: #222222;
+	color: #fff;
+}
+
+.left_column {
+	padding-left: 180px;
+	max-width: 400px;
+}
+
+.data {
+	padding-top: 70px;
+	padding-bottom: 17px;
+	font-family: GothamBook;
+	font-size: 11px;
+}
+
+.left_column>.title {
+	font-family: Gotham-Medium;
+	font-size: 21px;
+}
+
+.left_column>.content {
+	line-height: 17px;
+	padding-top: 35px;
+	font-family: GothamBook;
+	font-size: 13px;
+}
+
+.content_second {
+	line-height: 17px;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+.right_content {
+	min-height: 100%;
+	width: 50%;
+	/*background-color: red;*/
+	background-repeat: no-repeat;
+	background-image: url("../images/new-bg-right.jpg");
+}
+
+/*akita_inu_dog_next*/
+
+.akita_inu_dog_next {
+	max-width: 100%;
+	max-height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.akita_inu_dog_next>.left {
+	min-height: 100%;
+	width: 50%;
+	background-repeat: no-repeat;
+	background-image: url("../images/news-bg-left.jpg");
+}
+
+.akita_inu_dog_next>.right {
+	color: #222222;
+	padding-left: 65px;
+	background-color: #f3f3f3;
+	min-height: 100%;
+	width: 50%;
+}
+
+.akita_inu_dog_next>.data {
+	font-family: GothamBook;
+	font-size: 11px;
+}
+
+.right>.title  {
+	font-family: Gotham-Medium;
+	font-size: 21px;
+	padding-top: 15px;
+	text-transform: uppercase;
+}
+
+.right>.content  {
+	line-height: 20px;
+	padding-top: 35px;
+	font-family: GothamBook;
+	font-size: 12px;
+}
+
+.right>.content_second  {
+	line-height: 20px;
+	padding-top: 30px;
+	font-family: GothamBook;
+	font-size: 12px;
+}
+
+
+/*BLOG*/
+
+.lets_blog {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: #fff;
+}
+
+.awesome_agency_title {
+	text-transform: uppercase;
+	font-family: Gotham-Medium;
+	font-size: 32px;
+	margin: 0 auto;
+	text-align: center;
+	color:#222222;
+	font-size: 30px;
+	padding: 140px;
+	position: relative;
+	max-width: 540px;
+	z-index: 0;
+}
+.awesome_agency_title::after {
+	margin: 0 auto;
+	content: 'B';
+	font-size: 211px;
+	position: absolute;
+	line-height: 40px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #e2e2e2;
+	z-index: -1;
+}
+
+.top_content_title {
+	font-family: GothamBook;
+	font-size: 26px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+
+.bottom_content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 1000px;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4 {
+	display: flex;
+	flex-direction: column;
+	max-width: 230px;
+	height: 100%;
+}
+
+
+.col_1 .bg {
+	max-width: 230px;
+	height: 240px;
+	background-image: url('../images/blog-1.jpg');
+}
+.col_2 .bg {
+	max-width: 230px;
+	height: 240px;
+	background-image: url('../images/blog-2.jpg');
+}
+.col_3 .bg {
+	max-width: 230px;
+	height: 240px;
+	background-image: url('../images/blog-3.jpg');
+}
+.col_4 .bg {
+	max-width: 230px;
+	height: 240px;
+	background-image: url('../images/blog-4.jpg');
+}
+
+.bottom_content .title {
+	color: #11749e;
+	font-family: Gotham-Medium;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.bottom_content .content_col {
+	color: #222222;
+	font-family: GothamBook;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+/*BG section*/
+
+section {
+	margin-top: 90px;
+	background-color: #11749e;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+section .row {
+	max-width: 1000px;
+	margin:0 auto;
+	padding-top: 90px;
+	padding-bottom: 135px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	
+}
+
+section>.row>.column {
+	color: #fff;
+	font-family: GothamBook;
+	font-size: 13px;
+	display: flex;
+	flex-direction: row;
+}
+
+section>.row>.column>.content {
+	line-height: 20px;
+	max-width: 400px;
+}
+
+
+section>.row>.column>.bg {
+	width: 65px;
+	height: 65px;
+	background-repeat: no-repeat;
+	background-image: url('../images/icons/Feature one.png');
+}
+
+/*Akita Inu Dog*/
+
+.akita_inu_wrapper {
+
+	background-repeat: no-repeat;
+	background-image: url('../images/AkitaInuDog-bg.jpg');
+	max-width: 100%;
+	height: auto;
+}
+
+.akita_inu_wrapper_w {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.akita_inu_wrapper_w .left {
+	max-width: 50%;
+}
+
+
+.akita_inu_wrapper .right {
+	width: 340px;
+	height: 560px;
+	border: 1px solid red;
+	background-color: #fff;
+}
+
+.akita_inu_wrapper_w .title {
+	font-family: Gotham-Medium;
+	font-size: 21px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	color: #fff;
+}
+
+.akita_inu_wrapper_w .content {
+	font-family: GothamBook;
+	font-size: 13px;
+	line-height: 20px;
+	color: #fff;
+	padding-bottom: 60px;
+}
+
+.akita_inu_wrapper_w .left button {
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #11749e;
+	border: 1px solid #11749e;
+	border-radius: 2px;
+}
+
+.akita_inu_wrapper_w .left .bth_1 {
+	cursor: pointer;
+	max-width: 315px;
+	height: 100%;
+	line-height: 35px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.akita_inu_wrapper_w .left .bth_2 {
+	cursor: pointer;
+	max-width: 340px;
+	height: 100%;
+	line-height: 35px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+
+}
+
+.akita_inu_wrapper_w .left .bth_3 {
+	cursor: pointer;
+	max-width: 365px;
+	height: 100%;
+	line-height: 35px;
+	padding-left: 10px;
+}
+
+
+
+/*our_team===================*/
+
+.our_team {
+	background-color: #fff;
+	max-width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.team_w {
+	max-width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+
+.team_title {
+	padding-top: 120px;
+	text-transform: uppercase;
+	font-family: Gotham-Medium;
+	font-size: 32px;
+	color: #222222;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	z-index: 0;
+}
+.team_title::after {
+	text-align: center;
+	margin: 0 auto;
+	content: 'T';
+	font-size: 211px;
+	position: absolute;
+	line-height: 40px;
+	left: 0;
+	right: 0;
+	color: #e2e2e2;
+	z-index: -1;
+}
+
+.team_content {
+	color: #222;
+	font-family: GothamBook;
+	padding-top: 130px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.team_w {padding-bottom: 90px;}
+
+.team_w .row {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.team_w .row .col1 {
+	display: flex;
+	align-items: flex-end;
+	margin:0 auto;
+	width: 232px;
+	height: 355px;
+	background-position: top;
+	background-image: url('../images/JOHN-SNOW.jpg')
+}
+
+.team_w .row .col2 {
+		display: flex;
+	align-items: flex-end;
+	margin:0 auto;
+	width: 232px;
+	height: 355px;
+	background-position: bottom;
+	background-image: url('../images/boy-lady-sanda.jpg')
+}
+
+.team_w .row .col3 {
+		display: flex;
+	align-items: flex-end;
+	margin:0 auto;
+	width: 232px;
+	height: 355px;
+	background-position: top;
+	background-image: url('../images/DAVID-SMITH.jpg')
+}
+
+.team_w .row .col4 {
+	display: flex;
+	align-items: flex-end;
+	margin:0 auto;
+	width: 232px;
+	height: 355px;
+	background-position: top;
+	background-image: url('../images/LADY-SANSA.jpg')
+}
+
+.team_w>.row>.col1>.title_name,
+.team_w>.row>.col2>.title_name,
+.team_w>.row>.col3>.title_name,
+.team_w>.row>.col4>.title_name {
+	width: 190px;
+	height: 40px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.team_w>.row>.col1>.title_name>.first_second_name,
+.team_w>.row>.col2>.title_name>.first_second_name,
+.team_w>.row>.col3>.title_name>.first_second_name,
+.team_w>.row>.col4>.title_name>.first_second_name {
+	color: #11749e;
+	font-family: Gotham-Medium;
+	font-size: 17px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.team_w>.row>.col1>.title_name>.seat,
+.team_w>.row>.col2>.title_name>.seat,
+.team_w>.row>.col3>.title_name>.seat,
+.team_w>.row>.col4>.title_name>.seat {
+	text-align: center;
+	color: #000000;
+	font-family: Gotham-Medium;
+	font-size: 13px;
+	line-height: 15px;
+	padding-top: 10px;
+}
+
+
+
+
+.footer {
+	margin-top: 90px;
+	max-width: 100%;
+	height: 100%;
+	background-color: #222222;
+}
+
+.footer_w {
+	max-width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.footer_w .content {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 45px;
+	font-size: 12px;
+	color: #fff;
+}

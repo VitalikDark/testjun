@@ -1,0 +1,6 @@
+[MyriadPro] regular
+[Gotham] bold
+[Gotham] [Medium]
+[OpenSans] [Regular]
+[Roboto] [BoldC...
+[Gotham] Book

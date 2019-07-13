@@ -1,0 +1,73 @@
+@media (max-width: 576px) {
+
+}
+
+
+
+@media (max-width: 768px) { 
+	.menu ul>a>li {display: block;}
+	.right_content {display: none;}
+	.akita_inu_dog>.left {width: 100%;}
+
+	.left_column, 
+	.akita_inu_dog_next>.right {padding-left: 20px;}
+	
+	.akita_inu_dog_next>.left {display: none;}
+	.akita_inu_dog_next>.right {width: 100%;}
+
+	section .row {
+		flex-direction: column;
+		
+	}
+	section .row .column {padding-bottom: 20px;}
+
+	.akita_inu_wrapper_w {flex-direction: column;}
+	.akita_inu_wrapper .right {
+		max-width: 100%;
+		height: 560px;
+	}
+
+}
+
+
+@media (max-width: 992px) {
+
+	.header_icons  {display: none;}
+	.header_content_title,	.content_line {
+		font-size: 16px;
+		letter-spacing: normal;
+	}
+	.awesome_agency_row {
+		flex-direction: column;
+	}
+	.awesome_agenc_col {
+		padding-bottom: 20px;
+	}
+	.bottom_content {
+		flex-direction: column;
+	}
+	.col_1, .col_2, .col_3, .col_4 {
+		padding-bottom:20px;
+		margin: 0 auto;
+	}
+
+	.team_w>.row>.col1,
+	.team_w>.row>.col2,
+	.team_w>.row>.col3,
+	.team_w>.row>.col4 {
+		margin-bottom: 20px;
+	}
+}
+
+
+@media (max-width: 1200px) { 
+	.team_w>.row {
+		margin:0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	
+
+}
